@@ -1,0 +1,17 @@
+body {
+    background-color: blueviolet;
+}
+
+.ex1 {
+    background-color: aqua;
+    width: 200px;
+    margin: 40px 100px;
+    
+}
+
+.ex2 {
+    width: 250px;
+    background-color: white;
+    margin: 100px auto;
+}
+

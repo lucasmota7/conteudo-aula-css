@@ -1,0 +1,45 @@
+body {
+    background-color: burlywood;
+}
+
+.ex1 {
+    border: 6px solid white;
+}
+
+.ex2 {
+    border: 6px solid white;
+    border-width: medium;
+}
+.ex3 {
+    border: 6px dotted white;
+}
+
+.ex4 {
+    border: dotted white;
+    border-radius: thick ;
+}
+
+.ex5 {
+    border: solid black;
+    border-width: 20px 10px;
+    /*ou tbm cor da borda:  border-color:xxx*/
+}
+
+.ex6 {
+    border: solid;
+    border-width: 20px 10px;
+    border-color: blue red greenyellow magenta
+}
+
+.ex7 {
+    border-top-style: solid;
+    border-right-style: dotted;
+    border-bottom-style: double;
+    border-left-style: none;
+}
+
+.ex8{
+    border: 6px solid pink;
+    border-radius: 20px;
+}
+
