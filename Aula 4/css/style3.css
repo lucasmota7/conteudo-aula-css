@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(255, 225, 186);
+    color: rgb(87, 53, 8);
+}
+
+.ex1 {
+    display: flex;
+    background-color: rgb(10, 8, 5);
+}
+
+.ex1 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(106, 102, 97);
+    color: rgb(255, 145, 1);
+}
+
+.ex2 {
+    display: flex;
+    height: 200px;
+    align-items: flex-start;
+    gap: 30px;
+    background-color: rgb(10, 8, 5);
+}
+
+.ex2 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(106, 102, 97);
+    color: rgb(255, 145, 1);
+}
+
+.ex3 {
+    display: flex;
+    height: 200px;
+    align-items: flex-end;
+    gap: 30px;
+    background-color: rgb(10, 8, 5);
+}
+
+.ex3 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(106, 102, 97);
+    color: rgb(255, 145, 1);
+}
+
+.ex4 {
+    display: flex;
+    height: 200px;
+    align-items: stretch;
+    gap: 30px;
+    background-color: rgb(10, 8, 5);
+}
+
+.ex4 div {
+    width: 100px;
+    text-align: center;
+    background-color: rgb(106, 102, 97);
+    color: rgb(255, 145, 1);
+}
+
+.ex5 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    align-content: center;
+    gap: 30px;
+    background-color: rgb(10, 8, 5);
+}
+
+.ex5 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(106, 102, 97);
+    color: rgb(255, 145, 1);
+}
+
+.ex6 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    align-content: space-between;
+    gap: 30px;
+    background-color: rgb(1, 6, 173);
+}
+
+.ex6 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(80, 85, 237);
+    color: rgb(1, 225, 255);
+}
+
+.ex7 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgb(1, 6, 173);
+}
+
+.ex7 div {
+    width: 100px;
+    height: 100px;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(80, 85, 237);
+    color: rgb(1, 225, 255);
+}
+
+
+
+
