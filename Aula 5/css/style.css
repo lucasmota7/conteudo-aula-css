@@ -1,0 +1,102 @@
+body {
+    background-color: antiquewhite;
+}
+
+.ex1 {
+    display: flex;
+    gap: 30px;
+    background-color: cadetblue;
+}
+
+.ex1 div {
+    width: 100px;
+    height: 100px;
+    background-color: darkcyan;
+}
+
+.ex2 {
+    display: flex;
+    gap: 30px;
+    background-color: cadetblue;
+}
+
+.ex2 div {
+    width: 100px;
+    height: 100px;
+    background-color: darkcyan;
+}
+
+.ex3 {
+    display: flex;
+    gap: 30px;
+    background-color: cadetblue;
+}
+
+.ex3 div {
+    width: 150px;
+    height: 100px;
+    background-color: darkcyan;
+}
+
+.ex4 {
+    display: flex;
+    gap: 30px;
+    background-color: cadetblue;
+}
+
+.ex4 div {
+    width: 100px;
+    height: 100px;
+    background-color: darkcyan;
+}
+
+.ex5 {
+    display: flex;
+    height: 200px;
+    gap: 30px;
+    background-color: cadetblue;
+}
+
+.ex5 div {
+    width: 100px;
+    background-color: darkcyan;
+}
+
+.ex5 #it3 {
+    align-self: center;
+    background-color: aqua;
+}
+
+.ex6 {
+    display: flex;
+    height: 200px;
+    gap: 30px;
+    background-color: cadetblue;
+}
+
+.ex6 div {
+    width: 100px;
+    background-color: darkcyan;
+}
+
+.ex6 #item2 {
+    align-self: flex-start;
+    background-color: aqua;
+    height: 100px;
+}
+
+.ex6 #item3 {
+    align-self: center;
+    background-color: aqua;
+    height: 100px;
+}
+
+.ex6 #item4 {
+    align-self: flex-end;
+    background-color: aqua;
+    height: 100px;
+}
+
+
+
+
