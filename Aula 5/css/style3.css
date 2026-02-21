@@ -1,0 +1,158 @@
+body {
+    background-color: lightblue;
+}
+
+.ex1 {
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+    grid-template-columns: auto auto auto;
+    background-color: mediumturquoise;
+}
+
+.ex1 div {
+    border: 1px solid black;
+    height: 30px;
+    background-color: mediumaquamarine;
+    align-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.ex2 {
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+    grid-template-columns: 200px 80px auto ;
+    background-color: mediumturquoise;
+}
+
+.ex2 div {
+    border: 1px solid black;
+    height: 30px;
+    background-color: mediumaquamarine;
+    align-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.ex3 {
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: mediumturquoise;
+}
+
+.ex3 div {
+    border: 1px solid black;
+    height: 30px;
+    background-color: mediumaquamarine;
+    align-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.ex4 {
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+    grid-template-columns: minmax(180px, 1fr) 150px 150px;
+    background-color: mediumturquoise;
+}
+
+.ex4 div {
+    border: 1px solid black;
+    height: 30px;
+    background-color: mediumaquamarine;
+    align-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.ex5 {
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 80px 200px;
+    background-color: mediumturquoise;
+}
+
+.ex5 div {
+    border: 1px solid black;
+    
+    background-color: mediumaquamarine;
+    align-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.ex6 {
+    display: grid;
+    padding: 5px;
+    column-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    
+background-color: mediumturquoise;
+}
+
+.ex6 div {
+    border: 1px solid black;
+    background-color: mediumaquamarine;
+    align-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.ex7 {
+    display: grid;
+    padding: 5px;
+    row-gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: mediumturquoise;
+}
+
+.ex7 div {
+    border: 1px solid black;
+    background-color: mediumaquamarine;
+    align-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+.ex8 {
+    display: grid;
+    padding: 5px;
+    /* gap: 40px;  */
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: mediumturquoise;
+}
+
+.ex8 div {
+    border: 1px solid black;
+    background-color: mediumaquamarine;
+    align-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.ex9 {
+    display: grid;
+    padding: 5px;
+    gap: 10px 50px;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: mediumturquoise;
+}
+
+.ex9 div {
+    border: 1px solid black;
+    background-color: mediumaquamarine;
+    align-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
