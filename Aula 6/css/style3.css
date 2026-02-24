@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(80, 138, 245);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Exemplos de grid-column-start e grid-column-end*/
+.ex1 {
+    background-color: rgb(19, 14, 84);
+    grid-template-columns: repeat(3, 100px);
+    display: grid;
+    height: 400px;
+    gap: 0px 10px;
+    justify-content: center;
+    align-content: space-evenly;
+}
+
+.ex1 div {
+    height: 100px;
+    background-color: rgb(13, 0, 255);
+    text-align: center;
+    align-content: space-evenly;
+    color: aliceblue;
+}
+
+.itm1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/*Exemplos de grid-row-start e grid-row-end*/
+.ex2 {
+    background-color: rgb(19, 14, 84);
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    display: grid;
+    height: 400px;
+    gap: 0px 10px;
+    justify-content: center;
+    align-content: space-evenly;
+}
+
+.ex2 div {
+    background-color: rgb(13, 0, 255);
+    text-align: center;
+    align-content: center;
+    color: aliceblue;
+}
+
+#itm1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.ex3 {
+    background-color: rgb(19, 14, 84);
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    display: grid;
+    height: 400px;
+    gap: 0px 10px;
+    justify-content: center;
+    align-content: space-evenly;
+}
+
+.ex3 div {
+    background-color: rgb(13, 0, 255);
+    text-align: center;
+    align-content: center;
+    color: aliceblue;
+}
+
+.itm1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
